@@ -4,6 +4,7 @@ import {
   Platform,
   StatusBar,
   StyleSheet,
+  Text,
   View,
 } from 'react-native';
 import {
@@ -46,7 +47,9 @@ class App extends React.Component {
       <View style={styles.container}>
         <IconExample />
         <Button style={{alignSelf: 'center'}}>
-          This is indeed a button
+          <Text style={{color: '#fff'}}>
+            This is indeed a button
+          </Text>
         </Button>
         <StatusBar barStyle="default" />
       </View>
