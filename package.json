@@ -6,10 +6,9 @@
   "private": true,
   "main": "main.js",
   "dependencies": {
-    "@exponent/vector-icons": "~4.0.0",
-    "exponent": "~13.0.0",
-    "native-base": "^2.0.5",
-    "react": "~15.4.0",
-    "react-native": "git+https://github.com/exponentjs/react-native#sdk-13.0.3"
+    "expo": "~18.0.3",
+    "native-base": "^2.2.0",
+    "react": "~16.0.0-alpha.12",
+    "react-native": "~0.45.1"
   }
 }
