@@ -1,4 +1,4 @@
-import Exponent from 'exponent';
+import Expo from 'expo';
 import React from 'react';
 import {
   Platform,
@@ -30,7 +30,7 @@ class App extends React.Component {
 
   async componentWillMount() {
     if (Platform.OS === 'android') {
-      await Exponent.Font.loadAsync({
+      await Expo.Font.loadAsync({
         'Roboto': require('native-base/Fonts/Roboto.ttf'),
         'Roboto_medium': require('native-base/Fonts/Roboto_medium.ttf'),
       });
@@ -40,7 +40,7 @@ class App extends React.Component {
   }
   render() {
     if (!this.state.isReady) {
-      return <Exponent.Components.AppLoading />;
+      return <Expo.AppLoading />;
     }
 
     return (
@@ -66,4 +66,4 @@ const styles = StyleSheet.create({
   },
 });
 
-Exponent.registerRootComponent(App);
+Expo.registerRootComponent(App);
