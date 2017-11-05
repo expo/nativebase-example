@@ -1,3 +1,3 @@
-# Do not use this - it is out of date and not maintained
+# If you wish to use the "NativeBase" library with your Expo project, see the "Getting Started" section of the NativeBase README
 
-Instead, if you wish to use the "NativeBase" library with your Expo project, see the "Getting Started" section of the NativeBase README: https://github.com/GeekyAnts/NativeBase
+You can find the README on the repository for the project: https://github.com/GeekyAnts/NativeBase
